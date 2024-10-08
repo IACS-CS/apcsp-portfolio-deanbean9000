@@ -1,15 +1,15 @@
 import "../styles/styles.css";
-// Add imports here
 import "@picocss/pico/css/pico.min.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 console.log("What?");
 console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
-  // Put code that runs ONLY in the browser here -- this is most likely where
-  // MOST of your code should go.
-  //
-  // If you see a SSR error, try moving your code here!
   console.log("Hello world, browser :-)");
-  Aos.inity();
+  AOS.init({
+    duration: 600, // Duration of the animations
+    easing: 'ease-in-out', // Easing function
+    once: false, // Whether animation should happen only once or every time you scroll up/down
+  });
 }
