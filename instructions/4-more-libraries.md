@@ -46,7 +46,7 @@ When you're looking for the right library or need assistance with integrating a 
 
 If you don't yet know what library to use:
 
-*Can you help me find a library that will: [YOUR TEXT HERE] and guide me through installing it. I am building a basic portfolio using Astro.js and coding in a GitHub Codespace. I am a beginner programmer just learning the basics of HTML and JavaScript and am looking for simple solutions using third-party libraries to add functionality to my site. Please avoid extra complexity and implementing new components in complex web frameworks. Guide me toward simple solutions where I can implement things by, e.g., adding a data attribute to an element to enable an animation, etc., if possible. I already have a basic public `styles.css` file and a basic `main.js` file that will build through a Vite project where I can (and should) put any imports from `node_modules` so they get built properly.*
+*Can you help me find a library that will: [YOUR TEXT HERE] and guide me through installing it. I am building a basic portfolio using Astro.js and coding in a GitHub Codespace. I am a beginner programmer just learning the basics of HTML and JavaScript and am looking for simple solutions using third-party libraries to add functionality to my site. Please avoid extra complexity and implementing new components in complex web frameworks. Guide me toward simple solutions where I can implement things by, e.g., adding a data attribute to an element to enable an animation, etc., if possible. I already have a basic public `styles.css` file and a basic `main.js` file that will build through a Vite project where I can (and should) put any imports  from `node_modules` so they get built properly.*
 
 If you already have a library:
 

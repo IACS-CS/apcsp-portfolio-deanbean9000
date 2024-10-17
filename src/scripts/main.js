@@ -2,6 +2,7 @@ import "../styles/styles.css";
 import "@picocss/pico/css/pico.min.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Typed from 'typed.js';
 
 console.log("What?");
 console.log("Hello world, from main.js!");
