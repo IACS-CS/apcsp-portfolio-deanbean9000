@@ -3,22 +3,37 @@ import Page from "../components/Page.astro";
 ---
 
 <Page title="Ryan's Portfolio">
-<div>
-  <h1 class="ryan" data-aos="slide-down">
-    Ryan's Portfolio
-  </h1>
-  <h2 class="project"data-aos="slide-right">Project Menu</h2>
-  <nav>
-    <ul>
-      <li>
-        <a class="binaryskibidi" data-aos="fade-in" href="./projects/binary-search/"> 
-          Binary Search Project 
-        </a>
-      </li>
-      <!-- More projects to come soon! -->
-    </ul>
-  </nav>
-  <h2 class="skibidi" data-aos="slide-right">About Me</h2>
-  <p class="aboutme" data-aos="fade-in">My name is Ryan Dean, I am a Junior at IACS. I run indoor and outdoor track and field. I am taking all Honors / Dual Enrollement classes, This portfolio was made in My AP Computer Science Principles course.</p>
+  <div>
+    <h1 class="ryan" data-aos="slide-down">Ryan's Portfolio</h1>
+    <nav>
+      <a class="link4ack" href="#acknowledgments">Go to Acknowledgments</a>
+    </nav>
+    <h2 class="project" data-aos="slide-right">Project Menu</h2>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="binaryskibidi"
+            data-aos="fade-in"
+            href="./projects/binary-search/"
+          >
+            Binary Search Project
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a class="moreproject"> More Projects Coming soon</a>
+    <h2 class="skibidi" data-aos="slide-right">About Me</h2>
+    <p class="aboutme" data-aos="fade-in">
+      My name is Ryan Dean, I am a Junior at IACS. I run indoor and outdoor
+      track and field. I am taking all Honors / Dual Enrollement classes, This
+      portfolio was made in My AP Computer Science Principles course.
+    </p>
+    <section id="acknowledgments">
+      <h2 class="ack">Acknowledgments</h2>
+      <p class="ack2">
+        The libraries I used in this project are Pico, AOS, and Typed.JS
+      </p>
+    </section>
   </div>
 </Page>
