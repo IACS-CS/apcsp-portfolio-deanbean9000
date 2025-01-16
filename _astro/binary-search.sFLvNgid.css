@@ -49,7 +49,9 @@ min-height: 100vh;
   
 }
 .tortuga {
-  margin-left: 480px;
+  margin-left: 510px;
+  border-style:solid;
+  border-color:white;
   color: rgb(0, 255, 255)
 }
 html {
@@ -57,7 +59,9 @@ html {
 }
 
 .tor {
-  margin-left: 480px; 
+  margin-left: 535px; 
+  border-style:solid;
+  border-color:white;
   color: rgb(0,255,255)
 }/*!
  * Pico CSS ✨ v2.0.6 (https://picocss.com)
