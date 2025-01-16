@@ -55,3 +55,8 @@ min-height: 100vh;
 html {
   scroll-behavior: smooth;
 }
+
+.tor {
+  margin-left: 480px; 
+  color: rgb(0,255,255)
+}
