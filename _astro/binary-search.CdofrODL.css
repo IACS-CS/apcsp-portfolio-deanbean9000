@@ -54,6 +54,11 @@ min-height: 100vh;
 }
 html {
   scroll-behavior: smooth;
+}
+
+.tor {
+  margin-left: 480px; 
+  color: rgb(0,255,255)
 }/*!
  * Pico CSS ✨ v2.0.6 (https://picocss.com)
  * Copyright 2019-2024 - Licensed under MIT
